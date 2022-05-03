@@ -1,0 +1,30 @@
+FIRST(ALPHA)
+It is defines as set of terminals that beguin with strings dervided from aplha where alpha is in some sentential form
+
+
+R1 : First of termibnal is terminal itself
+
+R2 : if X -> a ALPHA then first of X is a
+
+R : if X -> E  then then first of X is E
+
+R4 :  if X -> ABCD...Z  then first of X = first of A
+if First of A mein Aplha then
+
+
+
+Follow
+It is defined as set of terminals that can appear to RHS of  A, where A is a variable
+
+R1: Follow of start var is $
+
+
+R2: if X-> APLHA Y then FOL(y) = FOL(X)
+
+R3: if X-> APLHA Y Beta  then FOL(Y) = First B
+
+if First B cantains E
+then FOL(Y) = First B - E + Fol(X)
+
+
+
